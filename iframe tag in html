@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Iframe Example</title> 
+</head> 
+<body> 
+  <h1>Iframe Example</h1> 
+    <!-- Embedding a website --> 
+    <iframe src="https://www.example.com"  
+            width="600"  
+            height="300"> 
+    </iframe> 
+    <br><br> 
+    <!-- Embedding a YouTube video --> 
+    <iframe width="560"  
+            height="315"  
+            src="https://www.youtube.com/embed/tgbNymZ7vqY"> 
+    </iframe> 
+</body> 
+</html>
