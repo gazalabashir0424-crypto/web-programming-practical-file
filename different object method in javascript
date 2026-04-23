@@ -1,0 +1,33 @@
+// Creating an object
+let student = {
+    name: "Ali",
+    age: 20,
+    marks: 85,
+
+    // Method 1: Display details
+    display: function() {
+        console.log("Name: " + this.name);
+        console.log("Age: " + this.age);
+        console.log("Marks: " + this.marks);
+    },
+
+    // Method 2: Update marks
+    updateMarks: function(newMarks) {
+        this.marks = newMarks;
+        console.log("Updated Marks: " + this.marks);
+    },
+
+    // Method 3: Check result
+    checkResult: function() {
+        if (this.marks >= 40) {
+            console.log("Result: Pass");
+        } else {
+            console.log("Result: Fail");
+        }
+    }
+};
+
+// Calling object methods
+student.display();        // Method call 1
+student.updateMarks(92);  // Method call 2
+student.checkResult();    // Method call 3
