@@ -1,0 +1,13 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Insert Image Example</title> 
+</head> 
+<body> 
+<h1>HTML Image Example</h1> 
+<!-- Inserting an image --> 
+<img src="https://via.placeholder.com/300" alt="Sample Image" width="300" 
+height="200"> 
+<p>This is a sample image displayed using the img tag.</p> 
+</body> 
+</html>
